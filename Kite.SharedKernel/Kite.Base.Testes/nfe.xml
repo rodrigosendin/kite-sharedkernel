@@ -1,0 +1,182 @@
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="3.10">
+  <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe Id="NFe31160613212412000137550010000000101000000107" versao="3.10">
+      <ide>
+        <cUF>31</cUF>
+        <cNF>00000010</cNF>
+        <natOp>VENDA PROD EST NAO CONTRIBUINTE</natOp>
+        <indPag>0</indPag>
+        <mod>55</mod>
+        <serie>1</serie>
+        <nNF>10</nNF>
+        <dhEmi>2016-06-08T11:51:10-03:00</dhEmi>
+        <dhSaiEnt>2016-06-09T05:00:00-03:00</dhSaiEnt>
+        <tpNF>1</tpNF>
+        <idDest>2</idDest>
+        <cMunFG>3138203</cMunFG>
+        <tpImp>2</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>7</cDV>
+        <tpAmb>2</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>0</indFinal>
+        <indPres>9</indPres>
+        <procEmi>0</procEmi>
+        <verProc>1.0</verProc>
+      </ide>
+      <emit>
+        <CNPJ>13212412000137</CNPJ>
+        <xNome>ALGORAMA - TECNOLOGIA DA INFORMAÇÃO</xNome>
+        <xFant>ALGORAMA</xFant>
+        <enderEmit>
+          <xLgr>TV DA SAUDADE</xLgr>
+          <nro>77</nro>
+          <xBairro>PIRACICAMIRIM</xBairro>
+          <cMun>3138203</cMun>
+          <xMun>PIRACICABA</xMun>
+          <UF>SP</UF>
+          <CEP>37200000</CEP>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+          <fone>3538222270</fone>
+        </enderEmit>
+        <IE>11111111111111</IE>
+        <CRT>3</CRT>
+      </emit>
+      <dest>
+        <CNPJ>11111111111111111</CNPJ>
+        <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+        <enderDest>
+          <xLgr>TV DA SAUDADE</xLgr>
+          <nro>77</nro>
+          <xBairro>PIRACICAMIRIM</xBairro>
+          <cMun>3138203</cMun>
+          <xMun>PIRACICABA</xMun>
+          <UF>SP</UF>
+          <CEP>13440000</CEP>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+          <fone>01934391704</fone>
+        </enderDest>
+        <indIEDest>1</indIEDest>
+        <IE>759001037110</IE>
+        <email>rodrigo@algorama.com.br</email>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>1</cProd>
+          <cEAN />
+          <xProd>PRODUTO XYZ</xProd>
+          <NCM>35079039</NCM>
+          <CFOP>6107</CFOP>
+          <uCom>LT</uCom>
+          <qCom>100.0000</qCom>
+          <vUnCom>28.0000000000</vUnCom>
+          <vProd>2800.00</vProd>
+          <cEANTrib />
+          <uTrib>LT</uTrib>
+          <qTrib>100.0000</qTrib>
+          <vUnTrib>28.0000000000</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>0</modBC>
+              <vBC>2800.00</vBC>
+              <pICMS>12.00</pICMS>
+              <vICMS>336.00</vICMS>
+            </ICMS00>
+          </ICMS>
+          <IPI>
+            <cEnq>999</cEnq>
+            <IPINT>
+              <CST>51</CST>
+            </IPINT>
+          </IPI>
+          <PIS>
+            <PISNT>
+              <CST>07</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>07</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>2800.00</vBC>
+          <vICMS>336.00</vICMS>
+          <vICMSDeson>0</vICMSDeson>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vProd>2800.00</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vPIS>0.00</vPIS>
+          <vCOFINS>0.00</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>2800.00</vNF>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>9</modFrete>
+      </transp>
+      <cobr>
+        <fat>
+          <nFat>5</nFat>
+          <vOrig>2800.00</vOrig>
+          <vLiq>2800.00</vLiq>
+        </fat>
+        <dup>
+          <nDup>5-1</nDup>
+          <dVenc>2016-06-08</dVenc>
+          <vDup>2800.00</vDup>
+        </dup>
+      </cobr>
+      <infAdic>
+        <infCpl>Valor aproximado dos tributos R$ 896,00. Fonte IBPT.</infCpl>
+      </infAdic>
+    </infNFe>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#NFe31160613212412000137550010000000101000000107">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>2iPFelo8EvqRuYAwGk35aT/odrA=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>n93Kl+8oiNJ7DKon8lOOXpWxMnJQCtbibjCHUjIxMl67qB7lAU+6ci0f9D06MxcRgvdR9y7g7OWHFfF5V/vLescC7bzoYghXUWYhUWzdpND2/WVqvtw/HN0Nd++0EFcQo/PKnTOzJuWZdtvMl+ubciOkhnXNXrxY9LOeQiuEnshdNlIflywpjiAvQxpOJg7ryTnCmorN5HJApYhUCiG4jnH9uCbwi9DPdW62qpAdPqa5KTk0+BJS/49uVjgANWV4bv1u1x5rtpAizS9LYw0jlqA4C/DUA8lIlguOanbf4TNTn8qjgvqRFaAxyYNv1H62dPFZeaKF0z4g0zAvuy+cIA==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIIIPjCCBiagAwIBAgIQAbFW2zmjDsueKYZ5Vx7g7TANBgkqhkiG9w0BAQsFADB0MQswCQYDVQQGEwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDEtMCsGA1UECxMkQ2VydGlzaWduIENlcnRpZmljYWRvcmEgRGlnaXRhbCBTLkEuMSEwHwYDVQQDExhBQyBDZXJ0aXNpZ24gTXVsdGlwbGEgRzUwHhcNMTYwNTA5MDAwMDAwWhcNMTcwNTA4MjM1OTU5WjCB1TELMAkGA1UEBhMCQlIxEzARBgNVBAoUCklDUC1CcmFzaWwxJDAiBgNVBAsUG0F1dGVudGljYWRvIHBvciBBUiBDYXBvcmFsaTEbMBkGA1UECxQSQXNzaW5hdHVyYSBUaXBvIEExMRYwFAYDVQQLFA1JRCAtIDEwMzkwNDgzMTIwMAYDVQQDEylDQVJFIFNZU1RFTVMgU09MVUNPRVMgQklPIEFNQklFTlRBSVMgTFREQTEiMCAGCSqGSIb3DQEJARYTZmlzY2FsQHJpbmVuLmNvbS5icjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL7CIC4qqEMY7nOv+TWDGR4yhx6gndDF4GHGylQyEOyaXHc2dyq+01ARWVG1KQmZDNV85khUV2odZv8nT5qRrWNMWyZzVcOL6rmTBvhD0yTLbVkIGVsYva7kOMs+UHhyQMl6t7WSwiZAnjMeMjHzDSqEnqmj4iuW8NjeYzZK0B48eG2drMqnQfh8UDOwZMOIDYlvqPw/a6KtL5+FsSLOyh1qLq/sypi8ry+wgJVLe+Xw+UkxhWkf5I26zylCjBtVFTgKSS35GGt1H7r3cdQW5mtrQrkK7rcdqgz2VC4rVqlbtreCHLfc5BcO3y0Xu0gOOOxJoC5OLfdhPnuis1uy7kcCAwEAAaOCA2gwggNkMIGuBgNVHREEgaYwgaOgOAYFYEwBAwSgLwQtMjQwMzE5NjYwNDg2ODkzMDgxODAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwoB4GBWBMAQMCoBUEE1JJTkFMRE8gSk9TRSBNRU5ERVOgGQYFYEwBAwOgEAQOMTMyMTI0MTIwMDAxMzegFwYFYEwBAwegDgQMMDAwMDAwMDAwMDAwgRNmaXNjYWxAcmluZW4uY29tLmJyMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUnVDPvf8kyq+xM+sX4kJ6jmkqjlMwDgYDVR0PAQH/BAQDAgXgMIGJBgNVHSAEgYEwfzB9BgZgTAECAQswczBxBggrBgEFBQcCARZlaHR0cDovL2ljcC1icmFzaWwuY2VydGlzaWduLmNvbS5ici9yZXBvc2l0b3Jpby9kcGMvQUNfQ2VydGlzaWduX011bHRpcGxhL0RQQ19BQ19DZXJ0aVNpZ25NdWx0aXBsYS5wZGYwggElBgNVHR8EggEcMIIBGDBcoFqgWIZWaHR0cDovL2ljcC1icmFzaWwuY2VydGlzaWduLmNvbS5ici9yZXBvc2l0b3Jpby9sY3IvQUNDZXJ0aXNpZ25NdWx0aXBsYUc1L0xhdGVzdENSTC5jcmwwW6BZoFeGVWh0dHA6Ly9pY3AtYnJhc2lsLm91dHJhbGNyLmNvbS5ici9yZXBvc2l0b3Jpby9sY3IvQUNDZXJ0aXNpZ25NdWx0aXBsYUc1L0xhdGVzdENSTC5jcmwwW6BZoFeGVWh0dHA6Ly9yZXBvc2l0b3Jpby5pY3BicmFzaWwuZ292LmJyL2xjci9DZXJ0aXNpZ24vQUNDZXJ0aXNpZ25NdWx0aXBsYUc1L0xhdGVzdENSTC5jcmwwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIGgBggrBgEFBQcBAQSBkzCBkDBkBggrBgEFBQcwAoZYaHR0cDovL2ljcC1icmFzaWwuY2VydGlzaWduLmNvbS5ici9yZXBvc2l0b3Jpby9jZXJ0aWZpY2Fkb3MvQUNfQ2VydGlzaWduX011bHRpcGxhX0c1LnA3YzAoBggrBgEFBQcwAYYcaHR0cDovL29jc3AuY2VydGlzaWduLmNvbS5icjANBgkqhkiG9w0BAQsFAAOCAgEAeLOVeVxxZeZyE6bQ7QhbRVVj64oGYAl3q6ZQBHs9Hp38SMxG0MTigjGGpPkdQXhd7NjsqIm5LxQvZO6DnuYz0zL8fygCySPaBuLQHuNNGFrfsRpL/iidHPwlJdx/B4Q0Hs2u7vE5ZYg2CwhDunppONrcPlfNKmcjKZnEvJrZ4FOOkexcWRzLxI6H9+o7SUuUgCsMeuaZiN8ETKmI5jRK9irJCjJJNS7waEEu1Y2oYKzpBHF2MWfQKdVG5/Nlgiwtbn/rU/9+HitFn8jxVLQKv3q7hxYr++3gKASdK4lz63UEIvfakATP6LmBTNmnLP6DDVqMrBCgTwfEhJwDp8Q8x6fz2qtAz/NpPNEM9MnIByQmiFBM0O3vJLcW0/CgthutF2s6jf+RCyWZ0305tfFpTMoS+Y54ulyr7bknCI/GwD9dFJZXoNE74dDpgRh4Uo7YO/qOTyv23RM62WS9lgeELAxxOBUK7360sOqbZBfp3JhVUQnUhZP9tpEYsQLLnNlnBkSqlLcJnKxoZ9Vc8lG8wXV/kS2uHWQSBovImRAl804jtXgOI5YAYASj7NuYk4ju7t5HG3TkQYqTFiG/wPdFg62GNFdIm5Exu2GCeSiyqnbNGgESXMzSE2UncBHp+9bFYh0JuklUXLT3yJPnjPZZR/aBAo2EvqhTejKJsP540h0=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infProt>
+    <tpAmb>2</tpAmb>
+    <verAplic>13_3_19</verAplic>
+    <chNFe>31160613212412000137550010000000101000000107</chNFe>
+    <dhRecbto>2016-06-08T11:51:08-03:00</dhRecbto>
+    <nProt>131160125202062</nProt>
+    <digVal>2iPFelo8EvqRuYAwGk35aT/odrA=</digVal>
+    <cStat>100</cStat>
+    <xMotivo>Autorizado o uso da NF-e</xMotivo>
+  </infProt>
+</protNFe>
+</nfeProc>
