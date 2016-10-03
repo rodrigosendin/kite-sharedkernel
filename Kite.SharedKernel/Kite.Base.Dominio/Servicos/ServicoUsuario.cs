@@ -37,6 +37,7 @@ namespace Kite.Base.Dominio.Servicos
         {
             senha = CryptoTools.ComputeHashMd5(senha);
             var usuario = Consulta(x => x.Login.ToUpper() == login.ToUpper() && x.Senha == senha).FirstOrDefault();
+            if (usuario == null) return null;
 
             var token = new Token
             {
