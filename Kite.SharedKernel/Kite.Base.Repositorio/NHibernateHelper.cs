@@ -23,7 +23,7 @@ namespace Kite.Base.Repositorio
         public static string GetPath()
         {
             var x = new Uri(Assembly.GetExecutingAssembly().CodeBase);
-            var path = x.LocalPath.ToLower().Replace("\\Kite.base.repositorio.dll", "");
+            var path = x.LocalPath.ToLower().Replace("\\kite.base.repositorio.dll", "");
             return path;
         }
 

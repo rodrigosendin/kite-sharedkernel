@@ -1,0 +1,1 @@
+﻿Camada de Domínio do SharedKernel do Algorama.Kite

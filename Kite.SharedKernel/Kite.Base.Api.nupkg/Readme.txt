@@ -1,0 +1,1 @@
+﻿Camada Base de API do SharedKernel do Algorama.Kite

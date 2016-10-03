@@ -5,9 +5,9 @@
     Qualquer modificação realizada nesse arquivo será perdida na próxima geração de código
 -->
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
-                   namespace="Universo.Autenticador.Dominio.Entidades" assembly="Universo.Autenticador.Dominio">
+                   namespace="Kite.Base.Dominio.Entidades" assembly="Kite.Base.Dominio">
 
-  <class name="Usuario" table="Usuario" schema="public" lazy="false"   >
+  <class name="Usuario" table="Usuario" schema="dbo" lazy="false"   >
     <id name="Id" column="Id" type="Int64">
       <generator class="native" />
     </id>
@@ -20,11 +20,7 @@
     <property name="Nome" column="Nome" type="string" length="100" not-null="true"></property>    
     <property name="Login" column="Login" type="string" length="100" not-null="true" index="idx_usuario_login" unique-key="uk_usuario_login"></property>    
     <property name="Senha" column="Senha" type="string" length="32" not-null="true"></property>    
-    <property name="Tema" column="Tema" type="string" length="50" not-null="false"></property>    
-    <bag name="Perfis" lazy="false" generic="true" cascade="all-delete-orphan">
-        <key column="Usuario" />
-        <one-to-many class="UsuarioPerfil" />
-    </bag>  
+ 
   </class>
   
 </hibernate-mapping>

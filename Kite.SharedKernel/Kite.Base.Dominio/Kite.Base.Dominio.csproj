@@ -57,10 +57,9 @@
     <Compile Include="Repositorio\IRepositorioConsulta.cs" />
     <Compile Include="Repositorio\IRepositorioHelper.cs" />
     <Compile Include="Repositorio\IRepositorioSessao.cs" />
-    <Compile Include="Servicos\IServicoLogin.cs" />
-    <Compile Include="Servicos\IValidaPermissao.cs" />
     <Compile Include="Servicos\Servico.cs" />
     <Compile Include="Servicos\ServicoConsulta.cs" />
+    <Compile Include="Servicos\ServicoUsuario.cs" />
     <Compile Include="Util\CryptoTools.cs" />
     <Compile Include="Util\EntidadeTools.cs" />
     <Compile Include="Util\EnumTools.cs" />
