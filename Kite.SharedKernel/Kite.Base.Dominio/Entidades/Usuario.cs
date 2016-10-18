@@ -7,3 +7,4 @@ namespace Kite.Base.Dominio.Entidades
         public string Senha { get; set; }
     }
 }
+

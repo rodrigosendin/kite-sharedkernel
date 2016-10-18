@@ -11,8 +11,7 @@ namespace Kite.Base.Util
         public static void Start()
         {
             _kernel = new StandardKernel();
-            _kernel.Bind<IRepositorioHelper>()
-                   .To<RepositorioHelper>();
+            _kernel.Bind<IRepositorioHelper>().To<RepositorioHelper>();
         }
 
         public static T Get<T>()

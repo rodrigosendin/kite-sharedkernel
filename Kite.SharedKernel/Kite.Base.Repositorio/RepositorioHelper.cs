@@ -6,8 +6,7 @@ namespace Kite.Base.Repositorio
     {
         public IRepositorioSessao AbrirSessao()
         {
-            return new RepositorioSessao(
-                NHibernateHelper.OpenSession());
+            return new RepositorioSessao(NHibernateHelper.OpenSession());
         }
     }
 }

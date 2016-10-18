@@ -13,5 +13,10 @@ namespace Kite.Base.Dominio.Entidades
         {
             return (EntidadeBase)MemberwiseClone();
         }
+
+        public override string ToString()
+        {
+            return Id.ToString();
+        }
     }
 }

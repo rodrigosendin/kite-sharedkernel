@@ -47,5 +47,3 @@ namespace Kite.Base.Repositorio
         }
     }
 }
-
-

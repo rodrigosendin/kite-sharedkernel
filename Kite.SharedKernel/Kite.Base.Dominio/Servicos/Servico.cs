@@ -4,8 +4,7 @@ using Kite.Base.Dominio.Repositorio;
 
 namespace Kite.Base.Dominio.Servicos
 {
-    public class Servico<T> : ServicoConsulta<T> 
-        where T : EntidadeBase, IAggregateRoot
+    public class Servico<T> : ServicoConsulta<T> where T : EntidadeBase, IAggregateRoot
     {
         public Servico(IRepositorioHelper helper) : base(helper)
         {

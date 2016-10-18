@@ -10,9 +10,11 @@ namespace Kite.Base.Dominio.Servicos
 {
     public class ServicoConsulta<T> where T : IEntidade
     {
-        public    List<string>       Mensagens  { get; set; }
+        private const int PAGE_SIZE = 15;
 
-        protected IRepositorioHelper Helper     { get; }
+        public List<string> Mensagens { get; set; }
+
+        protected IRepositorioHelper Helper { get; }
         
         public ServicoConsulta(IRepositorioHelper helper)
         {
@@ -86,8 +88,6 @@ namespace Kite.Base.Dominio.Servicos
             }
         }
 
-        private const int PageSize = 30;
-
         public virtual PageResult<T> ConsultaPaginada(int page)
         {
             Mensagens.Clear();
@@ -103,11 +103,11 @@ namespace Kite.Base.Dominio.Servicos
 
                     result.TotalRegistros = entidades.Count();
                     result.TotalPaginas =
-                        (int)Math.Ceiling((double)result.TotalRegistros / PageSize);
+                        (int)Math.Ceiling((double)result.TotalRegistros / PAGE_SIZE);
 
                     result.Resultado = entidades
-                        .Skip(PageSize * page)
-                        .Take(PageSize)
+                        .Skip(PAGE_SIZE * page)
+                        .Take(PAGE_SIZE)
                         .ToList();
 
                     sessao.ComitaTransacao();

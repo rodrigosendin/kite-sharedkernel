@@ -36,7 +36,10 @@ namespace Kite.Base.Dominio.Servicos
         public Token Login(string login, string senha)
         {
             senha = CryptoTools.ComputeHashMd5(senha);
-            var usuario = Consulta(x => x.Login.ToUpper() == login.ToUpper() && x.Senha == senha).FirstOrDefault();
+            var usuario = Consulta(x => 
+                x.Login.ToUpper() == login.ToUpper() && 
+                x.Senha == senha).FirstOrDefault();
+
             if (usuario == null) return null;
 
             var token = new Token
@@ -48,6 +51,25 @@ namespace Kite.Base.Dominio.Servicos
             };
 
             return token;
+        }
+
+        public bool TrocaSenha(string login, string senhaAntiga, string senhaNova)
+        {
+            Mensagens.Clear();
+
+            senhaAntiga = CryptoTools.ComputeHashMd5(senhaAntiga);
+            var usuario = Consulta(x =>
+                x.Login.ToUpper() == login.ToUpper() &&
+                x.Senha == senhaAntiga).FirstOrDefault();
+
+            if (usuario == null)
+            {
+                Mensagens.Add("Senha antiga não confere");
+                return false;
+            }
+
+            usuario.Senha = CryptoTools.ComputeHashMd5(senhaNova);
+            return base.Salva(usuario);
         }
     }
 }

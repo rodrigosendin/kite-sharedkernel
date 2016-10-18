@@ -29,7 +29,8 @@ namespace Kite.Base.Api.Filters
 
         public static void TokenExpirado(HttpActionContext context)
         {
-            context.Response = context.Request.CreateResponse(HttpStatusCode.Unauthorized, "Usuário não Autorizado!");
+            context.Response = context.Request.CreateResponse(HttpStatusCode.Unauthorized, 
+                "Usuário não Autorizado!");
         }
     }
 }
