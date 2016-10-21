@@ -10,7 +10,7 @@ namespace Kite.Base.Dominio.Util
             var msg = string.Empty;
             foreach (var m in lista)
             {
-                msg += m + Environment.NewLine;
+                msg += m + "<br/>";
             }
             return msg.Trim();
         }
